@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+/* carousel section starts */
+.carousel {
+    width: 70%;
+    height: 70%;
+    margin:auto;
+    margin-top:30px;
+}
+
+.carousel .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 40rem;
+    max-height: 40rem;
+    
+}
+/* carousel section ends  */
+ 
+/* form section starts  */
+.form_sec {
+    width: 70%;
+    height: 70%;
+    margin:auto;
+    margin-top:30px;
+}
+
+ /* from section ends  */
+
+/* mobile design starts  */
+@media (max-width:748px) {
+    .carousel .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 25rem;
+    } 
+}
+ /* mobile design ends  */
